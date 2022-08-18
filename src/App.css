@@ -1,12 +1,40 @@
+.title {
+  text-align: center;
+}
+
 .notes-container {
-  border: 1px solid red;
+  border: 1px solid black;
   display: flex;
   justify-content: center;
 }
 
 .note-card {
+  display: flex;
+  flex-direction: column;
   height: 200px;
   width: 200px;
   border: 1px solid black;
   margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.note-card:hover {
+  cursor: pointer;
+}
+
+/* create note form */
+.form-container {
+  margin-top: 50px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: blueviolet;
 }
