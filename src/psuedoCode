@@ -1,0 +1,7 @@
+Components:
+App component
+•Notes List Component : this will lis all the notes , and have sorting features
+•When note is selected or hovered over, related notes will pop up
+•Notes card Component: this is will display one card , map over all notes and return a card for each note
+•When a note is clicked dipslay all related notes
+•Create note component: this will be a form that allows to create a note and send it/ post it to database
